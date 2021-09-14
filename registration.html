@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css?v=3">
+  <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;500;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <title>AntsBet</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrap content">
+      <a href="#" class="header-logo"><img src="img/main/logo.svg" alt=""></a>
+      <a href="#" class="header-btn btn">Скачать бота</a>
+      <a href="office.html" class="login-header-link">Вернуться назад</a>
+
+      <div class="header-burger js-menuTrigger"><img src="img/main/burger.svg" alt=""></div>
+    </div>
+   
+  </header>
+
+  <div class="miniprofile">
+    <div class="miniprofile-info">
+      <div class="miniprofile-info__img"><img src="" alt=""></div>
+      <span class="miniprofile-info__name">Alexander</span>
+      <span class="miniprofile-info__email">email@email.com</span>
+      <a href="profile.html" class="btn miniprofile-info__btn">Профиль</a>
+    </div>
+    <button class="miniprofile-btn">Выйти</button>
+  </div>
+  
+  <main class="main main-pay">
+    <section class="section reg">
+
+      <div class="wrap">
+
+        <div class="reg-wrap">
+ 
+          <form action="#" class="reg-form box">
+            <h3 class="box-title reg-form__title">Регистрация</h3>
+            <span class="reg-form__text">Уже есть аккаунт? <a href="login.html">Войдите</a></span>
+
+            <input type="text" class="input reg-form__input" placeholder="Nickname">   
+            <input type="text" class="input reg-form__input" placeholder="ID спонсора">   
+            <input type="email" class="input reg-form__input" placeholder="E-mail">   
+
+            <div class="reg-form__password security password-block">
+              <input type="password" class="input"  placeholder="&#9679; &#9679; &#9679; &#9679; &#9679; &#9679; &#9679; &#9679;">
+              <div class="img">
+                <img class="hide" src="img/sign/hide-password-icon.svg" alt="">
+              </div>
+            
+
+              <div class="reg-form__security">
+                <span class="reg-form__security__item active"></span>
+                <span class="reg-form__security__item active"></span>
+                <span class="reg-form__security__item"></span>
+                <span class="reg-form__security__text">Надежность пароля</span>
+              </div>
+            </div>
+
+            <div class="reg-form__password password-block">
+              <input type="password" class="input"  placeholder="Повторите пароль">
+              <div class="img">
+                <img class="hide" src="img/sign/hide-password-icon.svg" alt="">
+
+              </div>
+            </div>
+            <div class="reg-form__buttons payment-form__buttons structure-filter-buttons">
+              <div class="structure-filter-buttons__item">
+                <input type="checkbox" id="rules" name="payment-form" value="">
+                <label class="payment-form__label" for="rules"> Согласен с условиями <a class="payment-form__link" href=""> оферты</a></label>
+              </div>
+              <div class="structure-filter-buttons__item">
+                <input type="checkbox" id="privacy" name="payment-form" value="">
+                <label class="payment-form__label" for="privacy"> Согласен с <a class="payment-form__link" href="#">Политикой конфиденциальности</a></label>
+              </div>
+              <div class="structure-filter-buttons__item">
+                <input type="checkbox" id="terms" name="payment-form" value="">
+                <label class="payment-form__label" for="terms"> Принимаю на себя риски, описанные в <a class="payment-form__link" href="#">Пользовательском соглашении</a></label>
+              </div>
+
+              <div class="structure-filter-buttons__item">
+                <input type="checkbox" id="age" name="payment-form" value="">
+                <label class="payment-form__label" for="age">  Достиг совершеннолетия</label>
+              </div>
+            </div>
+            <button class="reg-form__btn btn btn-primary">Зарегистрироваться</button>
+            <button class="reg-form__btn btn">Демо</button>
+          </form>
+        </div>
+
+
+      </div>
+    </section>
+
+
+  </main>
+
+  <div class="footer"></div>
+
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script src="js/menu.js?v=1"></script>
+  <script src="js/main.js?v=1"></script>
+</body>
+
+</html>

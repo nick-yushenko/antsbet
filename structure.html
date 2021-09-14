@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css?v=5">
+  <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;500;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+  <title>AntsBet</title>
+</head>
+
+<body>
+
+  <div class="modal-wrap">
+    <div class="modal box">
+      <h3 class="box-title">Добавить нового пользователя в структуру</h3>
+      <p class="modal-text">Отправьте эту ссылкц партнеру. После регистрации и оплаты пакета он встанет на данное место
+        в бинаре. Если место уже будет занято к моменту заключения соглашения, то патнер встанет в спонсорскую ногу ниже
+        этого места.</p>
+      <div class="office-invite-link modal-link">https://antsbet.ru/demo/register</div>
+      <button class="btn btn-primary modal-btn">Скопировать</button>
+
+    </div>
+  </div>
+  <header class="header">
+    <div class="wrap content">
+      <a href="#" class="header-logo"><img src="img/main/logo.svg" alt=""></a>
+      <a href="#" class="header-btn btn">Скачать бота</a>
+      <div class="header-name js-miniprofileTrigger">Nickname</div>
+      <div class="header-burger js-menuTrigger"><img src="img/main/burger.svg" alt=""></div>
+    </div>
+
+  </header>
+
+  <div class="miniprofile">
+    <div class="miniprofile-info">
+      <div class="miniprofile-info__img"><img src="" alt=""></div>
+      <span class="miniprofile-info__name">Alexander</span>
+      <span class="miniprofile-info__email">email@email.com</span>
+      <a href="profile.html" class="btn miniprofile-info__btn">Профиль</a>
+    </div>
+    <button class="miniprofile-btn">Выйти</button>
+  </div>
+
+
+  <div class="menu">
+    <div class="menu-nav">
+
+      <a href="office.html" class="menu-item">
+        <img src="img/menu/office-icon.svg" alt="" class="menu-item__img">
+        <span class="menu-item__text">Кабинет</span>
+
+      </a>
+
+      <a href="structure.html" class="menu-item  menu-item_current">
+        <img src="img/menu/structure-icon_active.svg" alt="" class="menu-item__img">
+        <span class="menu-item__text">Структура</span>
+      </a>
+
+      <a href="finance.html" class="menu-item">
+        <img src="img/menu/finance-icon.svg" alt="" class="menu-item__img">
+        <span class="menu-item__text">Финансы</span>
+      </a>
+
+      <a href="packages.html" class="menu-item">
+        <img src="img/menu/packeges-icon.svg" alt="" class="menu-item__img">
+        <span class="menu-item__text">Пакеты</span>
+      </a>
+
+      <a href="education.html" class="menu-item">
+        <img src="img/menu/education-icon.svg" alt="" class="menu-item__img">
+        <span class="menu-item__text">Обучение</span>
+      </a>
+      <a href="profile.html" class="menu-item">
+        <img src="img/menu/profile-icon.svg" alt="" class="menu-item__img">
+        <span class="menu-item__text">Профиль</span>
+      </a>
+
+      <a href="dosc.html" class="menu-item">
+        <img src="img/menu/docs-icon.svg" alt="" class="menu-item__img">
+        <span class="menu-item__text">Документы</span>
+      </a>
+
+      <a href="news.html" class="menu-item">
+        <img src="img/menu/news-icon.svg" alt="" class="menu-item__img">
+        <span class="menu-item__text">Новости компании</span>
+      </a>
+
+      <a href="faq.html" class="menu-item">
+        <img src="img/menu/faq-icon.svg" alt="" class="menu-item__img">
+        <span class="menu-item__text">FAQ</span>
+      </a>
+    </div>
+  </div>
+
+  <main class="main">
+    <section class="section stucture">
+
+      <div class="wrap">
+        <div class="section-message">
+          <img src="img/office/message-icon.svg" alt="">
+        </div>
+        <h2 class="section-title">Структура</h2>
+
+        <div class="structure-wrap content">
+          <form action="#" class="structure-search box">
+            <h3 class="box-title">Поиск по структуре</h3>
+            <div class="structure-search-input-block">
+              <input type="text" class="input structure-search-input" placeholder="ID/Фамилия/Nickname">
+              <div class="structure-search-input__img">
+                <img src="img/structure/search-icon.svg" alt="">
+              </div>
+            </div>
+            <h3 class="box-title jura">Глубина отображения структуры</h3>
+            <div class="structure-search__select">
+              <select>
+                <option value="4">4 уровня</option>
+
+              </select>
+
+            </div>
+
+
+            <h3 class="box-title jura">Постановка лично приглашенных</h3>
+            <div class="structure-search-buttons">
+              <div class="structure-search-buttons__item">
+                <input type="radio" id="radioAuto" name="invites" value="">
+                <label for="radioAuto">Автоматически</label>
+              </div>
+              <div class="structure-search-buttons__item">
+
+                <input type="radio" id="radioRight" name="invites" value="">
+                <label for="radioRight">В правую ветку</label>
+
+              </div>
+              <div class="structure-search-buttons__item">
+                <input type="radio" id="radioLeft" name="invites" value="">
+                <label for="radioLeft">В левую ветку</label>
+              </div>
+
+
+
+
+            </div>
+
+
+
+          </form>
+
+          <div class="structure-ui box">
+            <h3 class="box-title">Ваша структура</h3>
+
+            <div class="structure-ui-block">
+              <div class="path">
+                <div class="path-line">
+
+                  <div class="path-item ">
+                    <span class="path-item__board"></span>
+
+                    <div class="path-item__logo platinum">
+                      <img src="img/structure/logo.png" alt="">
+                      <div class="drop">
+                        <p class="drop-text"> ФИО/Nickname: Evgenii Kovalenko </p>
+                        <p class="drop-text"> Статус: --- </p>
+                        <p class="drop-text"> ID: 123123123</p>
+                        <p class="drop-text"> e-mail: llllllooonnngggmail@mail.ru</p>
+                        <p class="drop-text"> Активность: Активен</p>
+                        <p class="drop-text"> Текущий пакет: Silver</p>
+                        <p class="drop-text"> Первая линия: 11</p>
+                        <p class="drop-text"> Объем левой ветки: 11</p>
+                        <p class="drop-text"> Объем правой ветки: 11 </p>
+                      </div>
+                    </div>
+                    <div class="path-item__descr">
+                      <span class="path-item__name">Alexander</span>
+                      <span class="path-item__id">888576321</span>
+                      <div class="path-item__count">
+                        <span>820.00</span>
+                        <span>40.00</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="path-line">
+
+                  <div class="path-item ">
+                    <span class="path-item__board"></span>
+
+                    <div class="path-item__logo standart user">
+                      <img src="img/structure/ui-logo.svg" alt="">
+                      <div class="drop right">
+                        <p class="drop-text"> ФИО/Nickname: Evgenii Kovalenko </p>
+                        <p class="drop-text"> Статус: --- </p>
+                        <p class="drop-text"> ID: 123123123</p>
+                        <p class="drop-text"> e-mail: llllllooonnngggmail@mail.ru</p>
+                        <p class="drop-text"> Активность: Активен</p>
+                        <p class="drop-text"> Текущий пакет: Silver</p>
+                        <p class="drop-text"> Первая линия: 11</p>
+                        <p class="drop-text"> Объем левой ветки: 11</p>
+                        <p class="drop-text"> Объем правой ветки: 11 </p>
+                      </div>
+                    </div>
+                    <div class="path-item__descr">
+                      <span class="path-item__name">Alexander</span>
+                      <span class="path-item__id">888576321</span>
+                      <div class="path-item__count">
+                        <span>820.00</span>
+                        <span>40.00</span>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="path-item ">
+                    <span class="path-item__board"></span>
+
+                    <div class="path-item__logo standart vip">
+                      <img src="img/structure/ui-logo.svg" alt="">
+                      <div class="drop left">
+                        <p class="drop-text"> ФИО/Nickname: Evgenii Kovalenko </p>
+                        <p class="drop-text"> Статус: --- </p>
+                        <p class="drop-text"> ID: 123123123</p>
+                        <p class="drop-text"> e-mail: llllllooonnngggmail@mail.ru</p>
+                        <p class="drop-text"> Активность: Активен</p>
+                        <p class="drop-text"> Текущий пакет: Silver</p>
+                        <p class="drop-text"> Первая линия: 11</p>
+                        <p class="drop-text"> Объем левой ветки: 11</p>
+                        <p class="drop-text"> Объем правой ветки: 11 </p>
+                      </div>
+                    </div>
+                    <div class="path-item__descr">
+                      <span class="path-item__name">Alexander</span>
+                      <span class="path-item__id">888576321</span>
+                      <div class="path-item__count">
+                        <span>820.00</span>
+                        <span>40.00</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="path-line">
+
+                  <div class="path-item ">
+
+                    <div class="path-item__logo standart gold">
+                      <img src="img/structure/ui-logo.svg" alt="">
+                      <div class="drop right">
+                        <p class="drop-text"> ФИО/Nickname: Evgenii Kovalenko </p>
+                        <p class="drop-text"> Статус: --- </p>
+                        <p class="drop-text"> ID: 123123123</p>
+                        <p class="drop-text"> e-mail: llllllooonnngggmail@mail.ru</p>
+                        <p class="drop-text"> Активность: Активен</p>
+                        <p class="drop-text"> Текущий пакет: Silver</p>
+                        <p class="drop-text"> Первая линия: 11</p>
+                        <p class="drop-text"> Объем левой ветки: 11</p>
+                        <p class="drop-text"> Объем правой ветки: 11 </p>
+                      </div>
+                    </div>
+                    <div class="path-item__descr">
+                      <span class="path-item__name">Alexander</span>
+                      <span class="path-item__id">888576321</span>
+                      <div class="path-item__count">
+                        <span>820.00</span>
+                        <span>40.00</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="path-item ">
+                    <div class="path-item__logo empty">
+                      +
+                    </div>
+                  </div>
+
+                  <div class="path-item ">
+                    <div class="path-item__logo empty">
+                      +
+                    </div>
+
+                  </div>
+
+                  <div class="path-item ">
+                    <div class="path-item__logo standart user">
+                      <img src="img/structure/ui-logo.svg" alt="">
+                      <div class="drop left">
+                        <p class="drop-text"> ФИО/Nickname: Evgenii Kovalenko </p>
+                        <p class="drop-text"> Статус: --- </p>
+                        <p class="drop-text"> ID: 123123123</p>
+                        <p class="drop-text"> e-mail: llllllooonnngggmail@mail.ru</p>
+                        <p class="drop-text"> Активность: Активен</p>
+                        <p class="drop-text"> Текущий пакет: Silver</p>
+                        <p class="drop-text"> Первая линия: 11</p>
+                        <p class="drop-text"> Объем левой ветки: 11</p>
+                        <p class="drop-text"> Объем правой ветки: 11 </p>
+                      </div>
+                    </div>
+                    <div class="path-item__descr">
+                      <span class="path-item__name">Alexander</span>
+                      <span class="path-item__id">888576321</span>
+                      <div class="path-item__count">
+                        <span>820.00</span>
+                        <span>40.00</span>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+            <div class="structure-ui-buttons">
+              <button class="structure-ui-buttons__item btn">Вниз левой ветки</button>
+              <button class="structure-ui-buttons__item btn">Вниз правой ветки</button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="structure-info box">
+          <div class="structure-info__wrap">
+
+            <div class="structure-info__text">
+              <h3 class="box-title">Ваша структура</h3>
+              <span class="structure-info__isactive">Активные/<span>неактивные</span> </span>
+            </div>
+
+            <div class="structure-info__table-wrap">
+              <div class="structure-info__table">
+                <div class="structure-info__row structure-info__head">
+                  <div class="structure-info__item">Всего:</div>
+                  <div class="structure-info__item">Личных:</div>
+                  <div class="structure-info__item">User:</div>
+                  <div class="structure-info__item">Silver: </div>
+                  <div class="structure-info__item">Gold:</div>
+                  <div class="structure-info__item">Platinum:</div>
+                  <div class="structure-info__item">VIP:</div>
+                </div>
+
+                <div class="structure-info__row">
+                  <div class="structure-info__item count">365</div>
+                  <div class="structure-info__item count">15</div>
+                  <div class="structure-info__item count">58</div>
+                  <div class="structure-info__item count">34 </div>
+                  <div class="structure-info__item count">18</div>
+                  <div class="structure-info__item count">12</div>
+                  <div class="structure-info__item count">3</div>
+                </div>
+                <div class="structure-info__row details">
+                  <div class="structure-info__item details"><span>65</span>/300</div>
+                  <div class="structure-info__item details"><span>10</span>/5</div>
+                  <div class="structure-info__item details"><span>30</span>/18</div>
+                  <div class="structure-info__item details"><span>4</span>/30</div>
+                  <div class="structure-info__item details"><span>15</span>/3</div>
+                  <div class="structure-info__item details"><span>6</span>/6</div>
+                  <div class="structure-info__item details"><span>3</span>/0</div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+          </div>
+        </div>
+
+        <div class="structure-wrap structure-wrap__top  content">
+          <form action="#" class="structure-filter box">
+            <h3 class="box-title">Фильтр</h3>
+
+            <div class="structure-filter-buttons">
+              <div class="structure-filter-buttons__item">
+                <input type="checkbox" id="checkboxAll" name="filters" value="">
+                <label for="checkboxAll"> Все</label>
+              </div>
+              <div class="structure-filter-buttons__item">
+                <input type="checkbox" id="checkboxFirstLine" name="filters" value="">
+                <label for="checkboxFirstLine"> Первая линия</label>
+              </div>
+              <div class="structure-filter-buttons__item">
+                <input type="checkbox" id="checkboxOnlyActive" name="filters" value="">
+                <label for="checkboxOnlyActive"> Только активные</label>
+              </div>
+
+              <button class="structure-filter-buttons__btn  btn btn-primary">Применить</button>
+              <button class="structure-filter-buttons__btn btn">Сбросить</button>
+            </div>
+          </form>
+
+          <div class="structure-found box">
+            <h3 class="box-title">Найдено пользователей: 365</h3>
+            <div class="structure-found__table-wrap">
+              <div class="structure-found__table">
+                <div class="structure-found__row ">
+                  <div class="structure-found__item head">ID</div>
+                  <div class="structure-found__item head">Nickname/Имя</div>
+                  <div class="structure-found__item head">Дата регистрации</div>
+                  <div class="structure-found__item head">Пакет</div>
+                  <div class="structure-found__item head">Лицензия</div>
+                  <div class="structure-found__item head">Левая ветка</div>
+                  <div class="structure-found__item head">Правая ветка</div>
+                </div>
+                <div class="structure-found__row">
+                  <div class="structure-found__item">1234567890</div>
+                  <div class="structure-found__item">Alexander</div>
+                  <div class="structure-found__item">23.05.2020</div>
+                  <div class="structure-found__item">—</div>
+                  <div class="structure-found__item">Silver</div>
+                  <div class="structure-found__item">56.00</div>
+                  <div class="structure-found__item">5986.00</div>
+                </div>
+                <div class="structure-found__row">
+                  <div class="structure-found__item">1234567890</div>
+                  <div class="structure-found__item">Alexander</div>
+                  <div class="structure-found__item">23.05.2020</div>
+                  <div class="structure-found__item">—</div>
+                  <div class="structure-found__item">Silver</div>
+                  <div class="structure-found__item">56.00</div>
+                  <div class="structure-found__item">5986.00</div>
+                </div>
+                <div class="structure-found__row">
+                  <div class="structure-found__item">1234567890</div>
+                  <div class="structure-found__item">Alexander</div>
+                  <div class="structure-found__item">23.05.2020</div>
+                  <div class="structure-found__item">Gold</div>
+                  <div class="structure-found__item">Silver</div>
+                  <div class="structure-found__item">56.00</div>
+                  <div class="structure-found__item">5986.00</div>
+                </div>
+                <div class="structure-found__row">
+                  <div class="structure-found__item">1234567890</div>
+                  <div class="structure-found__item">Alexander</div>
+                  <div class="structure-found__item">23.05.2020</div>
+                  <div class="structure-found__item">—</div>
+                  <div class="structure-found__item">Silver</div>
+                  <div class="structure-found__item">56.00</div>
+                  <div class="structure-found__item">5986.00</div>
+                </div>
+                <div class="structure-found__row">
+                  <div class="structure-found__item">1234567890</div>
+                  <div class="structure-found__item">Alexander</div>
+                  <div class="structure-found__item">23.05.2020</div>
+                  <div class="structure-found__item">Silver</div>
+                  <div class="structure-found__item">Silver</div>
+                  <div class="structure-found__item">56.00</div>
+                  <div class="structure-found__item">5986.00</div>
+                </div>
+                <div class="structure-found__row">
+                  <div class="structure-found__item">1234567890</div>
+                  <div class="structure-found__item">Alexander</div>
+                  <div class="structure-found__item">23.05.2020</div>
+                  <div class="structure-found__item">Silver</div>
+                  <div class="structure-found__item">Silver</div>
+                  <div class="structure-found__item">56.00</div>
+                  <div class="structure-found__item">5986.00</div>
+                </div>
+                <div class="structure-found__row">
+                  <div class="structure-found__item">1234567890</div>
+                  <div class="structure-found__item">Alexander</div>
+                  <div class="structure-found__item">23.05.2020</div>
+                  <div class="structure-found__item">Silver</div>
+                  <div class="structure-found__item">Silver</div>
+                  <div class="structure-found__item">56.00</div>
+                  <div class="structure-found__item">5986.00</div>
+                </div>
+                <div class="structure-found__row">
+                  <div class="structure-found__item">1234567890</div>
+                  <div class="structure-found__item">Alexander</div>
+                  <div class="structure-found__item">23.05.2020</div>
+                  <div class="structure-found__item">Silver</div>
+                  <div class="structure-found__item">Silver</div>
+                  <div class="structure-found__item">56.00</div>
+                  <div class="structure-found__item">5986.00</div>
+                </div>
+                <div class="structure-found__row">
+                  <div class="structure-found__item">1234567890</div>
+                  <div class="structure-found__item">Alexander</div>
+                  <div class="structure-found__item">23.05.2020</div>
+                  <div class="structure-found__item">Silver</div>
+                  <div class="structure-found__item">Silver</div>
+                  <div class="structure-found__item">56.00</div>
+                  <div class="structure-found__item">5986.00</div>
+                </div>
+                <div class="structure-found__row">
+                  <div class="structure-found__item">1234567890</div>
+                  <div class="structure-found__item">Alexander</div>
+                  <div class="structure-found__item">23.05.2020</div>
+                  <div class="structure-found__item">—</div>
+                  <div class="structure-found__item">Silver</div>
+                  <div class="structure-found__item">56.00</div>
+                  <div class="structure-found__item">5986.00</div>
+                </div>
+                <div class="structure-found__row">
+                  <div class="structure-found__item">1234567890</div>
+                  <div class="structure-found__item">Alexander</div>
+                  <div class="structure-found__item">23.05.2020</div>
+                  <div class="structure-found__item">—</div>
+                  <div class="structure-found__item">Silver</div>
+                  <div class="structure-found__item">56.00</div>
+                  <div class="structure-found__item">5986.00</div>
+                </div>
+                <div class="structure-found__row">
+                  <div class="structure-found__item">1234567890</div>
+                  <div class="structure-found__item">Alexander Dmitruevich</div>
+                  <div class="structure-found__item">23.05.2020</div>
+                  <div class="structure-found__item">—</div>
+                  <div class="structure-found__item">Silver</div>
+                  <div class="structure-found__item">56.00</div>
+                  <div class="structure-found__item">5986.00</div>
+                </div>
+                <div class="structure-found__row">
+                  <div class="structure-found__item">1234567890</div>
+                  <div class="structure-found__item">Alexander</div>
+                  <div class="structure-found__item">23.05.2020</div>
+                  <div class="structure-found__item">—</div>
+                  <div class="structure-found__item">Silver</div>
+                  <div class="structure-found__item">56.00</div>
+                  <div class="structure-found__item">5986.00</div>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="structure-found__nav">
+              <div class="structure-found__page">1</div>
+              <div class="structure-found__page">2</div>
+              <div class="structure-found__page">3</div>
+              <div class="structure-found__page"><img src="img/news/arrow-right-icon.svg" alt=""></div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </section>
+
+
+  </main>
+
+  <div class="footer"></div>
+
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script src="js/menu.js?v=1"></script>
+  <script src="js/main.js?v=4"></script>
+</body>
+
+</html>
